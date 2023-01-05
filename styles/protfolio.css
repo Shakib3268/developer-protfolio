@@ -13,11 +13,12 @@
   border: 0;
   padding: 15px 30px;
 }
-.header{
-    background: #FFF8F3;
-    background-image: url('../images/header_bg.png') ,url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right,left;
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
 }
 
 /* Header and navigation style */
@@ -48,74 +49,179 @@ nav li {
 
 /* Banner */
 
-.banner{
-    margin: 0 130px;
-    display: flex;
-    align-items: center;
+.banner {
+  margin: 0 130px;
+  display: flex;
+  align-items: center;
 }
 
-.banner-title{
-    color: #181818;
-    font-weight: 700;
-    font-size: 55px;
- } 
-
-.banner-sub-title{
-    color: #474747;
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 20px;
+.banner-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 55px;
 }
 
-.banner-description{
-    font-size: 18px;
-    color: #757575;
-    margin-bottom: 30px;
+.banner-sub-title {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
 }
 
 /* section style */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.about{
-    background: #FFF8F3;
-    border-radius: 10px;
-    margin-top: 130px;
-    padding: 130px 150px;
-    text-align: center;
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  margin-top: 130px;
+  padding: 130px 150px;
+  text-align: center;
 }
 
-.section-title{
+.section-title {
   text-align: center;
   margin-bottom: 30px;
   color: #181818;
-  font-weight: 700;
   font-size: 35px;
 }
 
-.section-description{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 /* About info  */
 
-.about-info-container{
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info .info-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-description {
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* what i do */
+
+.what-i-do {
+  margin-top: 13opx;
+}
+
+.what {
+  margin-top: 115px;
+}
+
+.what-description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #757575;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skills {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #181818;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skills-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+/* resume style */
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.resume .title {
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .description {
+  color: #757575;
+}
+
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contract style */
+
+.contract{
     display: flex;
-    justify-content: space-around;
+    gap: 80px;
+    background: #FFF8F3;
 }
 
-.about-info .info-title{
-    font-weight: 400;
-font-size: 20px;
-color: #757575;
+.contract .section-title{
+    padding: 130px 200px;
+    font-size: 35px;
 }
 
-.info-description{
-    color: #474747;
-    font-weight: 700;
-font-size: 20px;
+.contract input[type='text'],input[type='email'],textarea{
+    margin-bottom: 20px;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.contract a{
+    text-decoration: none;
+}
+
+input{
+    height: 64px;
 }
